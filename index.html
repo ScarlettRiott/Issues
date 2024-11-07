@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive HTML Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Interactive Page</h1>
+      <p>
+        This is a simple HTML page with a few features and styles all in
+        separate files.
+      </p>
+
+      <!-- Button to toggle hidden content -->
+      <button class="btn" onclick="toggleContent()">Show More Info</button>
+      <div class="hidden-content" id="hiddenContent">
+        <p>
+          Here's some hidden content that you can toggle with the button above!
+        </p>
+      </div>
+
+      <!-- Like button -->
+      <div class="like-btn" id="likeBtn" onclick="toggleLike()">❤️ Like</div>
+
+      <!-- Save button -->
+      <div class="save-btn" onclick="alert('Saved for later!')">
+        Save for Later
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
