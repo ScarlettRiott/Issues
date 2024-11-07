@@ -15,3 +15,15 @@ function toggleLike() {
     ? "❤️ Liked"
     : "❤️ Like";
 }
+
+// Counter increment
+let count = 0;
+function incrementCounter() {
+  count++;
+  document.getElementById("counter").textContent = count;
+}
+
+// Toggle dark mode
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}

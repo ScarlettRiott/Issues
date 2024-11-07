@@ -8,11 +8,8 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to the Interactive Page</h1>
-      <p>
-        This is a simple HTML page with a few features and styles all in
-        separate files.
-      </p>
+      <h1>Welcome to the Enhanced Interactive Page</h1>
+      <p>Explore the interactive elements below, and try out the features!</p>
 
       <!-- Button to toggle hidden content -->
       <button class="btn" onclick="toggleContent()">Show More Info</button>
@@ -29,6 +26,14 @@
       <div class="save-btn" onclick="alert('Saved for later!')">
         Save for Later
       </div>
+
+      <!-- Counter button -->
+      <button class="btn" onclick="incrementCounter()">
+        Counter: <span id="counter">0</span>
+      </button>
+
+      <!-- Dark Mode Toggle -->
+      <button class="btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </div>
 
     <script src="script.js"></script>
